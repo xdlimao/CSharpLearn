@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLearn", "CSharpLearn\CSharpLearn.csproj", "{5164141E-E106-4A8E-9F57-477A0CE7A90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpLearn", "CSharpLearn\CSharpLearn.csproj", "{5164141E-E106-4A8E-9F57-477A0CE7A90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5164141E-E106-4A8E-9F57-477A0CE7A90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5164141E-E106-4A8E-9F57-477A0CE7A90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5164141E-E106-4A8E-9F57-477A0CE7A90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
