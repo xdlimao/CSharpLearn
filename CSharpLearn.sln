@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpLearn", "CSharpLearn\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora", "Calculadora\Calculadora.csproj", "{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronometro", "Cronometro\Cronometro.csproj", "{5D60153A-5B2A-40FF-8BE9-18603DF87831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronometro", "Cronometro\Cronometro.csproj", "{5D60153A-5B2A-40FF-8BE9-18603DF87831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorDeTexto", "EditorDeTexto\EditorDeTexto.csproj", "{DC46B0D2-CB08-4D40-ADE7-42579EC3B52C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5D60153A-5B2A-40FF-8BE9-18603DF87831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D60153A-5B2A-40FF-8BE9-18603DF87831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D60153A-5B2A-40FF-8BE9-18603DF87831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC46B0D2-CB08-4D40-ADE7-42579EC3B52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC46B0D2-CB08-4D40-ADE7-42579EC3B52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC46B0D2-CB08-4D40-ADE7-42579EC3B52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC46B0D2-CB08-4D40-ADE7-42579EC3B52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
