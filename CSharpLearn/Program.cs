@@ -6,12 +6,13 @@ namespace CSharpLearn
     {
         public static void Main(string[] args)
         {
-            var room = new Room(3);
+            var listclass = new ListClass();
+            /* var room = new Room(3);
             room.RoomSoldOutEvent += OnRoomSoldOut;
             room.ReserveSeat();
             room.ReserveSeat();
             room.ReserveSeat();
-            room.ReserveSeat();
+            room.ReserveSeat(); */
         }
         public static void OnRoomSoldOut(object? sender, EventArgs e)
         {
