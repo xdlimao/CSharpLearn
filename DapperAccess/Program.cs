@@ -2,28 +2,32 @@
 using Microsoft.Data.SqlClient;
 using Dapper;
 using DapperAccess.Models;
+using System.Net.NetworkInformation;
+using DapperAccess.Repositories;
 
 namespace DapperAccess
 {
     class Program
     {
-        private const string connstring = "Server=localhost,1433;Database=Blog;Integrated Security = SSPI;TrustServerCertificate=True";
+        private const string connstring = "Server=localhost,1433;Database=balta;Integrated Security = SSPI;TrustServerCertificate=True";
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-        }
-
-
-        public static void ReadUsers()
-        {
-            using (var connection = new SqlConnection(connstring))
+            /*
+            using (var repository = new Repository<User>(new SqlConnection(connstring)))
             {
-                var users = connection.GetAll<User>();
-                foreach (var user in users) 
-                { 
-                    Console.WriteLine(user.Name);
+                foreach (var row in repository.Get())
+                {
+                    Console.WriteLine(row.Name);
                 }
+            }*/
+            var sqlconnect = new SqlConnection(connstring);
+            sqlconnect.Open();
+            var query = @"select * from career";
+            var rows = sqlconnect.Query(query);
+            foreach ( var row in rows )
+            {
+                Console.WriteLine(row);
             }
         }
     }

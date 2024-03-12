@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EditorHtml", "EditorHtml\Ed
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DE3A66BA-2C3D-4A2A-9F0B-41A0164E22F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperAccess", "DapperAccess\DapperAccess.csproj", "{C7931E62-F0DA-4818-9DE2-E34EE7F4CEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperAccess", "DapperAccess\DapperAccess.csproj", "{C7931E62-F0DA-4818-9DE2-E34EE7F4CEE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog", "Modulo 4\Blog.csproj", "{AD59307D-B546-436D-B29D-8F994C9ED52D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{C7931E62-F0DA-4818-9DE2-E34EE7F4CEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7931E62-F0DA-4818-9DE2-E34EE7F4CEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7931E62-F0DA-4818-9DE2-E34EE7F4CEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD59307D-B546-436D-B29D-8F994C9ED52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD59307D-B546-436D-B29D-8F994C9ED52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD59307D-B546-436D-B29D-8F994C9ED52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD59307D-B546-436D-B29D-8F994C9ED52D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
