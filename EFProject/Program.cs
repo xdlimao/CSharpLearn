@@ -1,5 +1,6 @@
 ﻿using EFProject.Data;
 using EFProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EFProject
 {
@@ -7,14 +8,17 @@ namespace EFProject
     {
         static void Main(string[] args)
         {
-            using(var context = new DataContext())
+            using (var context = new DataContext())
             {
-                var tag = new Tag()
+                var post = context.Posts
+                    .AsNoTracking()
+                    .Include(x => x.Category)
+                    .Where(x => x.Id == 1)
+                    .ToList();
+                foreach(var rows in post)
                 {
-                    Name = "ASP.NET",
-                    Slug = "aspnet"
-                };
-                context.Tag
+                    Console.WriteLine(rows.Category.Name);
+                }
             }
         }
     }

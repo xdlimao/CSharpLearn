@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFProject.Models
+namespace EFProject2.Models
 {
-    [Table("Tag")]
-    public class Tag
+    public class Category
     {
-        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Slug { get; set; }
+        public IList<Post> Posts { get; set; }
     }
 }
