@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog", "Modulo 4\Blog.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioGPT", "DesafioGPT\DesafioGPT.csproj", "{58181AF4-7956-4F14-83A3-933DA1F11DD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFProject", "EFProject\EFProject.csproj", "{B05DD3DF-FFA3-48E6-8F8A-C2C83BAAD6CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{58181AF4-7956-4F14-83A3-933DA1F11DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58181AF4-7956-4F14-83A3-933DA1F11DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58181AF4-7956-4F14-83A3-933DA1F11DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05DD3DF-FFA3-48E6-8F8A-C2C83BAAD6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05DD3DF-FFA3-48E6-8F8A-C2C83BAAD6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05DD3DF-FFA3-48E6-8F8A-C2C83BAAD6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05DD3DF-FFA3-48E6-8F8A-C2C83BAAD6CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
