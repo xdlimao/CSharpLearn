@@ -9,11 +9,33 @@ using System.Threading.Tasks;
 
 namespace EFProject2.Data.Mappings
 {
-    internal class CategoryMap : IEntityTypeConfiguration<Category>
+    public class CategoryMap : IEntityTypeConfiguration<Category>
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            throw new NotImplementedException();
+            //Tabela
+            builder.ToTable("Category");
+            //Chave Primária
+            builder.HasKey(x => x.Id);
+            //Definindo um campo Identity
+            builder.Property(x => x.Id)
+                    .ValueGeneratedOnAdd()
+                    .UseIdentityColumn(); // <- IDENTITY(1, 1)
+            //Propriedades
+            builder.Property(x => x.Name)
+                .IsRequired()
+                .HasColumnName("Name")
+                .HasColumnType("NVARCHAR")
+                .HasMaxLength(80);
+            //Propriedades
+            builder.Property(x => x.Slug)
+                .IsRequired()
+                .HasColumnName("Slug")
+                .HasColumnType("VARCHAR")
+                .HasMaxLength(80);
+            //Índices
+            builder.HasIndex(x => x.Slug, "IX_Category_Slug")
+                .IsUnique();
         }
     }
 }
