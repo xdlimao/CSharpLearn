@@ -1,0 +1,15 @@
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\bin\Debug\net8.0\CSharpLearn.exe
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\bin\Debug\net8.0\CSharpLearn.deps.json
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\bin\Debug\net8.0\CSharpLearn.runtimeconfig.json
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\bin\Debug\net8.0\CSharpLearn.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\bin\Debug\net8.0\CSharpLearn.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\refint\CSharpLearn.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\ref\CSharpLearn.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\CSharpLearn\obj\Debug\net8.0\CSharpLearn.sourcelink.json
