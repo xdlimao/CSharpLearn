@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}|WebApiwow\\WebApiwow.csproj|c:\\users\\danie\\onedrive\\\u00E1rea de trabalho\\projetos\\csharplearn\\webapiwow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}|WebApiwow\\WebApiwow.csproj|solutionrelative:webapiwow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}|Todo\\Todo.csproj|c:\\users\\danie\\onedrive\\\u00E1rea de trabalho\\projetos\\csharplearn\\todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}|Todo\\Todo.csproj|solutionrelative:todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\WebApiwow\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiwow\\Program.cs",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\WebApiwow\\Program.cs",
-              "RelativeToolTip": "WebApiwow\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\Todo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Todo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\Todo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Todo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwDEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T20:17:31.814Z",
+              "WhenOpened": "2024-03-19T18:57:05.781Z",
               "EditorCaption": ""
             }
           ]

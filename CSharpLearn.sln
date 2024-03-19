@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFProject2", "EFProject2\EF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiwow", "WebApiwow\WebApiwow.csproj", "{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo", "Todo\Todo.csproj", "{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C6B117-19BB-4421-8DFB-EEA1B11995CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC37619-F50E-4B97-9CB6-BF44E4EE7146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
