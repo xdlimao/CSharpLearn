@@ -13,39 +13,47 @@ namespace Todo.Controllers
         {
             __dataContext = dataContext;
         }
+        [HttpGet("peralta")]
+        public IActionResult xd() => StatusCode(418, "burro");
         [HttpGet("a")]
-        public List<TodoModel> Get(/*[FromServices] DataContext dataContext*/)
-        {
-            return __dataContext.Todos.ToList();
-        }
+        public IActionResult Get(/*[FromServices] DataContext dataContext*/)
+            => Ok(__dataContext.Todos.ToList());
         [HttpGet("a/{id:int}")]
-        public TodoModel Get ([FromRoute]int id)
+        public IActionResult Get([FromRoute] int id)
         {
-            return __dataContext.Todos.FirstOrDefault(x => x.Id == id);
+            var entity = __dataContext.Todos.FirstOrDefault(x => x.Id == id);
+            if (entity == null)
+                return NotFound();
+            return Ok(entity);
         }
         [HttpPost("a")]
-        public string Post([FromBody] TodoModel model)
+        public IActionResult Post([FromBody] TodoModel model)
         {
             __dataContext.Todos.Add(model);
             __dataContext.SaveChanges();
-            return $"{model.Title} adicionado com sucesso!";
+            return Created($"{model.Title} adicionado com sucesso! (Isso aqui está no header)", model);
         }
         [HttpDelete("a")]
-        public string Delete([FromHeader] int id = 0)
+        public IActionResult Delete([FromHeader] int id = 0)
         {
-            if (id == 0)
-                return "Especifique um valor valido";
             var entity = __dataContext.Todos.Where(x => x.Id == id).FirstOrDefault();
+            if (entity == null)
+                return NotFound();
             __dataContext.Remove(entity);
             __dataContext.SaveChanges();
-            return $"Deletado o ID {id} com sucesso!";
+            return Ok("Deletado com sucesso o ID: " + id);
         }
-        [HttpPut("a")]
-        public TodoModel Put(TodoModel model)
+        [HttpPut("a/{id:int}")]
+        public IActionResult Put([FromRoute] int id, [FromBody] TodoModel model)
         {
-            __dataContext.Update(model);
+            var entity = __dataContext.Todos.FirstOrDefault(x => x.Id == id);
+            if (entity == null)
+                return NotFound();
+            entity.Title = model.Title;
+            entity.Done = model.Done;
+            __dataContext.Update(entity);
             __dataContext.SaveChanges();
-            return model;
+            return Ok(__dataContext.Todos.FirstOrDefault(x => x.Id == id));
         }
     }
 }
