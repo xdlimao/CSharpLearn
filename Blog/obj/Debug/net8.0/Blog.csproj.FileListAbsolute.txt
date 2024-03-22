@@ -130,3 +130,4 @@ C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\ne
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\Blog.pdb
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\ref\Blog.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
