@@ -1,15 +1,14 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Blog.ViewModels
 {
     public class EditorCategoryViewModel
     {
-        [Required(ErrorMessage = "Ponha o nome burro")]
-        [StringLength(40, MinimumLength = 3, ErrorMessage = "Campo obrigátorioooo Slugger")]
-        // [Range("0 to 10")]
-        // [EmailAddress]
+        [Required(ErrorMessage = "O nome é obrigatório")]
+        [StringLength(40, MinimumLength = 3, ErrorMessage = "Este campo deve conter entre 3 e 40 caracteres")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "Ponha o guls burro")]
+
+        [Required(ErrorMessage = "O slug é obrigatório")]
         public string Slug { get; set; }
     }
 }
