@@ -8,6 +8,7 @@ C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\ne
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Humanizer.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -31,6 +32,7 @@ C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\ne
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\SecureIdentity.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -130,4 +132,3 @@ C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\ne
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\Blog.pdb
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\obj\Debug\net8.0\ref\Blog.dll
-C:\Users\danie\OneDrive\Área de Trabalho\Projetos\CSharpLearn\Blog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

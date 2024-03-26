@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WRr9Ul10L1C5XiycQRq8LGGoXa8OBpBKc8qOMfqfjHFmMUut0GNZDWVhAPQtrN5pgJ+UZ0EmOu9LdiFYRjOu2A==",
+  "dgSpecHash": "at4VGWr1Jugjia97UixEbgDFi2sPZ0Jm1xfryv/wttDD9wQaonIGEuRdcZpBUrFB+yt1ijpORy0bQIeRWlJxhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Projetos\\CSharpLearn\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\secureidentity\\1.0.4\\secureidentity.1.0.4.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Blog.Extensions;
 using Blog.Models;
 using Microsoft.IdentityModel.Tokens;
 namespace Blog.Services;
@@ -10,12 +11,10 @@ public class TokenService
     {
         var tokenHandler = new JwtSecurityTokenHandler(); //<- controlador/gerador de token
         var key = Encoding.ASCII.GetBytes(Configuration.JwtKey); //<- Pegamos a nossa chave que criamos e convertermos para array de bytes (ele não pega string)
+        var claims = user.getClaims();
         var tokenDescriptor = new SecurityTokenDescriptor
         {
-            Subject = new ClaimsIdentity(new Claim[]
-            {
-                new ("cachorro", "peralta")
-            }),
+            Subject = new ClaimsIdentity(claims),
             Expires = DateTime.UtcNow.AddHours(8), //<-- Expira o tempo do token apos x tempo. (UsandoUtcNow evita problemas de timezone).
             SigningCredentials = new SigningCredentials( //<- Dita como o token vai ser gerado e lido
                 new SymmetricSecurityKey(key), //<- 1. pede a nossa chave (usando chave simétrica, que é única)
