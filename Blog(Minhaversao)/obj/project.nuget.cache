@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "at4VGWr1Jugjia97UixEbgDFi2sPZ0Jm1xfryv/wttDD9wQaonIGEuRdcZpBUrFB+yt1ijpORy0bQIeRWlJxhw==",
+  "dgSpecHash": "ZpkZjO0Zs7GZ+AJhVzRdGiFtewe86juOZgK9k4EyjVXut1CWRla8MW8BT0CPfUmbdB2AwPlZv/1sVADIU6IHjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Projetos\\CSharpLearn\\Blog\\Blog.csproj",
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Projetos\\CSharpLearn\\Blog(Minhaversao)\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
