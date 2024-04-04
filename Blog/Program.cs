@@ -17,6 +17,14 @@ LoadConfiguration(app); //método
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+if(app.Environment.IsProduction())
+    return;
+if(app.Environment.IsDevelopment())
+    return;
+if(app.Environment.IsStaging())
+    return;
+    
 app.Run();
 
 void LoadConfiguration(WebApplication app)

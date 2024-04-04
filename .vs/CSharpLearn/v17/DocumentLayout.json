@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD3CE37D-7D93-4ECD-8DCD-7E3FCD9E761A}|Blog\\Blog.csproj|c:\\users\\danie\\onedrive\\\u00E1rea de trabalho\\projetos\\csharplearn\\blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD3CE37D-7D93-4ECD-8DCD-7E3FCD9E761A}|Blog\\Blog.csproj|solutionrelative:blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\Blog\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blog\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC16AA8E-8366-46ED-B1CA-83C79B447DF1}|Calculadora\\Calculadora.csproj|c:\\users\\danie\\onedrive\\\u00E1rea de trabalho\\projetos\\csharplearn\\calculadora\\calculadora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Blog\\Program.cs",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\\u00C1rea de Trabalho\\Projetos\\CSharpLearn\\Blog\\Program.cs",
               "RelativeToolTip": "Blog\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwEEAAAASAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAADwv0EAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T16:19:14.296Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Calculadora\\Calculadora.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T16:12:25.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T16:12:25.864Z"
             },
             {
               "$type": "Document",
